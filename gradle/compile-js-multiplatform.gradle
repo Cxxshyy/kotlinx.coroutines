@@ -28,7 +28,7 @@ kotlin {
 }
 
 // When source sets are configured
-apply from: rootProject.file('gradle/test-mocha-js.gradle')
+// apply from: rootProject.file('gradle/test-mocha-js.gradle')
 
 def compileJsLegacy = tasks.hasProperty("compileKotlinJsLegacy")
         ? compileKotlinJsLegacy
